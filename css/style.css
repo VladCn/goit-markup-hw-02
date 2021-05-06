@@ -1,10 +1,10 @@
-
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #757575;
 }
+
 /*Header*/
 .logo {
     Font-family: Raleway;
@@ -14,13 +14,15 @@ body {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-.studio{
+
+.studio {
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: black;
 }
+
 .head {
     font-weight: 500;
     font-size: 14px;
@@ -29,12 +31,13 @@ body {
     color: #212121;
     text-decoration: none;
 }
+
 .head:hover,
-.head:focus
-{
+.head:focus {
     color: #2196F3;
 }
-.info{
+
+.info {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -42,17 +45,18 @@ body {
     color: #757575;
     text-decoration: none;
 }
+
 .info:hover,
-.info:focus
-{
+.info:focus {
     color: #2196F3;
 }
 
 /*main*/
-.osnovnaya{
+.osnovnaya {
     background-color: #2F303A;
 }
-h1{
+
+h1 {
     font-size: 44px;
     font-weight: 900;
     line-height: 136%;
@@ -60,7 +64,8 @@ h1{
     text-align: center;
     color: #FFFFFF;
 }
-h2{
+
+h2 {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -68,7 +73,8 @@ h2{
     letter-spacing: 0.03em;
     color: #212121;
 }
-h3{
+
+h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -77,10 +83,12 @@ h3{
 
     color: #212121;
 }
+
 button {
     cursor: pointer;
 }
-.butt-zak{
+
+.butt-zak {
     width: 200px;
     height: 50px;
     left: 700px;
@@ -91,24 +99,26 @@ button {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
 }
-.h3-text{
+
+.h3-text {
     font-size: 14px;
     line-height: 171%;
     letter-spacing: 0.03em;
 }
-.proffesia{
+
+.proffesia {
     font-size: 16px;
     line-height: 19px;
     /*text-align: center;*/
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 /*Porfolio.html*/
 
 /*section -work*/
-.work-select
-{
-    display:inline-block;
+.work-select {
+    display: inline-block;
     background: #F5F4FA;
     /*border-radius: 4px;*/
     /*padding: 6px 22px;*/
@@ -116,35 +126,35 @@ button {
     /*border-radius: 4px;*/
     /*padding: 6px 22px;*/
 }
-.work-select-a
-{
+
+.work-select-a {
     display: block;
     text-decoration: none;
     border-radius: 4px;
     padding: 6px 22px;
 }
+
 .work-select-a:hover,
-.work-select-a:focus
-{
+.work-select-a:focus {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: white;
     text-decoration: none;
 }
-.work-ul
-{
+
+.work-ul {
     text-align: center;
 }
-.port-h3
-{
+
+.port-h3 {
     font-weight: bold;
     font-size: 18px;
     line-height: 200%;
     letter-spacing: 0.06em;
 }
-.port-p
-{
+
+.port-p {
     font-size: 16px;
-    line-height: 187% ;
+    line-height: 187%;
     letter-spacing: 0.03em;
 }
