@@ -1,16 +1,21 @@
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
+:root{
+    --sec-color:#212121;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #757575;
 }
-
+.link {
+    text-decoration: none;
+}
 /*Header*/
 .logo {
     Font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -18,7 +23,7 @@ body {
 .studio {
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: black;
 }
@@ -26,10 +31,9 @@ body {
 .head {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
+    color: var(--sec-color);
 }
 
 .head:hover,
@@ -40,7 +44,7 @@ body {
 .info {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
@@ -68,20 +72,19 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.66;
     /*text-align: center;*/
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--sec-color);
 }
 
 h3 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.87;
     /*text-align: center;*/
     letter-spacing: 0.03em;
-
-    color: #212121;
+    color: var(--sec-color);
 }
 
 button {
@@ -108,7 +111,7 @@ button {
 
 .proffesia {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /*text-align: center;*/
     letter-spacing: 0.03em;
     color: #757575;
