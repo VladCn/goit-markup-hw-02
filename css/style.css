@@ -91,14 +91,11 @@ button {
 }
 
 .butt-zak {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    Font-size: 16px;
+    Font-weight: bold;
     color: #FFFFFF;
 }
 
@@ -119,6 +116,9 @@ button {
 /*Porfolio.html*/
 
 /*section -work*/
+.portfolio {
+    color: #2196F3;
+}
 .work-select {
     display: inline-block;
     background: #F5F4FA;
@@ -129,14 +129,24 @@ button {
     /*padding: 6px 22px;*/
 }
 
-.work-select-a {
+.work-select-button {
     display: block;
     border-radius: 4px;
     padding: 6px 22px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
 
-.work-select-a:hover,
-.work-select-a:focus {
+.work-select-button:hover,
+.work-select-button:focus {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: white;
@@ -158,4 +168,22 @@ button {
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.03em;
+}
+/*=============================FOOTER==========================================================*/
+footer {
+    background-color: #2F303A;
+}
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.mail, .tel {
+    Font-size: 14px;
+    Line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
 }
