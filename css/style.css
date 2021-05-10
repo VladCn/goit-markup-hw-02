@@ -2,6 +2,7 @@
 /*font-family: 'Roboto', sans-serif;*/
 :root{
     --sec-color:#212121;
+    --hov-blue-color:#2196F3;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -10,9 +11,12 @@ body {
 .link {
     text-decoration: none;
 }
+.studio-white{
+color:#FFFFFF;
+}
 /*Header*/
 .logo {
-    Font-family: Raleway;
+    font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -62,7 +66,7 @@ body {
 h1 {
     font-size: 44px;
     font-weight: 900;
-    line-height: 136%;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     color: #FFFFFF;
@@ -94,14 +98,15 @@ button {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    Font-size: 16px;
-    Font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
     color: #FFFFFF;
+    font-family: inherit;
 }
 
 .h3-text {
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -114,11 +119,10 @@ button {
 }
 
 /*Porfolio.html*/
-
-/*section -work*/
-.portfolio {
-    color: #2196F3;
+.active{
+    color: var(--hov-blue-color);
 }
+/*section -work*/
 .work-select {
     display: inline-block;
     background: #F5F4FA;
@@ -134,14 +138,13 @@ button {
     border-radius: 4px;
     padding: 6px 22px;
     border: none;
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
 }
 
@@ -160,13 +163,13 @@ button {
 .port-h3 {
     font-weight: bold;
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .port-p {
     font-size: 16px;
-    line-height: 187%;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
 /*=============================FOOTER==========================================================*/
@@ -181,8 +184,8 @@ address {
     color: #FFFFFF;
 }
 .mail, .tel {
-    Font-size: 14px;
-    Line-height: 1.71;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
