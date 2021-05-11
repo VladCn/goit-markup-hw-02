@@ -3,6 +3,7 @@
 :root{
     --sec-color:#212121;
     --hov-blue-color:#2196F3;
+    --ther-white-color:#ffffff;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -69,7 +70,7 @@ h1 {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--ther-white-color);
 }
 
 h2 {
@@ -181,7 +182,7 @@ address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--ther-white-color);
 }
 .mail, .tel {
     font-size: 14px;
