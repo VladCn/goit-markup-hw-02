@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Test</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+            integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+            crossorigin="anonymous"
+    />
     <!-- Raleway and  Roboto-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -12,7 +18,9 @@
 <body>
 <!--==============================HEADER===========================================-->
 <header>
-    <nav>
+    <div class="header-flex">
+<!--    <nav>-->
+        <div class="logo-and-nav">
         <a href="index.html" class="logo link">Web<span class="studio">Studio</span></a>
         <ul class="nav-ul">
             <li class="nav-ul-li">
@@ -25,8 +33,9 @@
                 <a href="" class="head link">Контакты</a>
             </li>
         </ul>
-    </nav>
-    <ul>
+        </div>
+<!--    </nav>-->
+    <ul class="ul-mail">
         <li>
             <a href="mailto:info@devstudio.com" class="info link">info@devstudio.com</a>
         </li>
@@ -34,6 +43,7 @@
             <a href="tel:+38961111111" class="info link">+38 096 111 11 11</a>
         </li>
     </ul>
+    </div>
 </header>
 <!--==============================HEADER END===========================================-->
 <!--==================================MAIN=============================================-->

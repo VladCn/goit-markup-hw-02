@@ -9,6 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #757575;
 }
+li {
+        list-style-type: none;
+    }
+h1,
+h2,
+h3 {
+    margin: 0;
+}
 .link {
     text-decoration: none;
 }
@@ -16,6 +24,36 @@ body {
 color:#FFFFFF;
 }
 /*Header*/
+/*FLEX Header*/
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.logo-and-nav {
+    display: flex;
+    width: 532px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 294px;
+    padding: 0;
+}
+.nav-ul-li{
+
+}
+.ul-mail{
+    display: flex;
+    padding: 0;
+    flex-basis: 307px;
+    justify-content: space-between;
+}
+/*END Flex Header*/
 .logo {
     font-family: Raleway;
     font-weight: bold;
@@ -23,6 +61,7 @@ color:#FFFFFF;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+
 }
 
 .studio {
@@ -125,7 +164,7 @@ button {
 }
 /*section -work*/
 .work-select {
-    display: inline-block;
+    /*display: inline-block;*/
     background: #F5F4FA;
     /*border-radius: 4px;*/
     /*padding: 6px 22px;*/
